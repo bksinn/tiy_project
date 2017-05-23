@@ -107,10 +107,10 @@ class LeafletMap extends Component {
     var centerLat;
     var centerLng;
 
- 
+    if (Number(this.props.centerLocation !== undefined)) { 
       centerLat = Number(this.props.centerLocation.slice(0, 6));
       centerLng = Number(this.props.centerLocation.slice(7));
-
+    }
 
     var position = [centerLat, centerLng];
 
