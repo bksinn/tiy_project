@@ -182,7 +182,7 @@ background-image: linear-gradient(to bottom, #0099ff, #1C67A6);
 }
 
 .leaflet-container {
-  border-radius: 5px;
+  //border-radius: 5px;
   height: 100%;
   /*width: 25%;*/
   width: 100%;
@@ -242,7 +242,9 @@ background-image: linear-gradient(to bottom, #0099ff, #1C67A6);
 
 .checkbox-filter {
   text-align: left;
-
+  border-width: 2px;
+      border-style: outset;
+      border-color: buttonface;
   color:#fff;
   background: #0099ff;
 background-image: -webkit-linear-gradient(top, #0099ff, #1C67A6);

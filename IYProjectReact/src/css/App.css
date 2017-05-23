@@ -191,7 +191,6 @@ td, th {
   color: red; }
 
 .leaflet-container {
-  border-radius: 5px;
   height: 100%;
   /*width: 25%;*/
   width: 100%;
@@ -243,6 +242,9 @@ td, th {
 
 .checkbox-filter {
   text-align: left;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
   color: #fff;
   background: #0099ff;
   background-image: -webkit-linear-gradient(top, #0099ff, #1C67A6);
