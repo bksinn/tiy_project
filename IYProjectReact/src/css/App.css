@@ -107,7 +107,7 @@ td, th {
 
 .title-name {
   height: 6rem;
-  width: 10rem;
+  width: 9.5rem;
   background-image: url(../img/logo2.gif);
   background-size: 75%;
   margin: 0 auto;
@@ -229,31 +229,8 @@ td, th {
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none; }
 
-.filter-box {
-  position: relative !important;
-  left: 2rem !important; }
-
 .input-box {
   display: inline; }
-
-.checkbox {
-  margin: 0;
-  text-align: left; }
-
-.checkbox-filter {
-  text-align: left;
-  border-width: 2px;
-  border-style: outset;
-  border-color: buttonface;
-  color: #fff;
-  background: #0099ff;
-  background-image: -webkit-linear-gradient(top, #0099ff, #1C67A6);
-  background-image: -moz-linear-gradient(top, #0099ff, #1C67A6);
-  background-image: -ms-linear-gradient(top, #0099ff, #1C67A6);
-  background-image: -o-linear-gradient(top, #0099ff, #1C67A6);
-  background-image: linear-gradient(to bottom, #0099ff, #1C67A6);
-  font-size: .75rem;
-  line-height: .3rem; }
 
 .wrap {
   border-radius: 5px;
@@ -315,7 +292,8 @@ td, th {
 .leaflet-popup-close-button {
   display: block;
   height: auto;
-  width: auto; }
+  width: auto;
+  z-index: 3; }
 
 #app {
   padding: 2rem; }
@@ -436,17 +414,6 @@ td, th {
   .search-box {
     width: 100%;
     margin: 0 auto; }
-
-  .checkbox-filter {
-    display: inline;
-    border-radius: 2px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
-
-  .filter-checkbox {
-    display: inline-flex; }
-
-  .checkbox {
-    display: inline-flex; }
 
   .search-button {
     display: inline;
