@@ -161,12 +161,8 @@ background-image: linear-gradient(to bottom, #0099ff, #1C67A6);
 }
 
 .search-button-primary:hover {
+  color:#fff;
   background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
 
@@ -246,6 +242,7 @@ background-image: linear-gradient(to bottom, #0099ff, #1C67A6);
 
 .checkbox-filter {
   text-align: left;
+
   color:#fff;
   background: #0099ff;
 background-image: -webkit-linear-gradient(top, #0099ff, #1C67A6);
@@ -492,6 +489,14 @@ color: #fff;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
+    .filter-checkbox {
+      display: inline-flex;
+    }
+
+    .checkbox {
+      display: inline-flex;
+    }
+
     .search-button {
       display: inline;
       height:45px;
@@ -508,6 +513,7 @@ color: #fff;
     .plus-button, .minus-button {
       height:75px;
       font-size: 1rem;
+      width: 25%;
     }
 
     .leaflet-control-zoom {
