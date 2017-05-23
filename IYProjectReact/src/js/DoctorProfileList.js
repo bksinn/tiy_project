@@ -249,9 +249,7 @@ class DoctorProfileList extends React.Component {
 			else if (this.state.vision) {
 				arrState = this.state.showVision;
 			}
-			else if (this.state.all) {
-				arrState = this.state.resultArr;
-			}
+			else {arrState = this.state.resultArr}
 
 
 			return (
