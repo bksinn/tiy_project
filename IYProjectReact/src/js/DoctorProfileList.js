@@ -94,17 +94,18 @@ class DoctorProfileList extends React.Component {
 
 			.then(response =>
 				{this.setState({resultArr: response.data.data});
-				{/*{this.setState({showMedical: response.data.data.filter(function (obj) {return obj.specialties[0].category === 'medical'})})};
+				
+				// {this.setState({showMedical: response.data.data.filter(function (obj) {return obj.specialties !== undefined ? obj.specialties[0].category === 'medical' : null})})};
 
-				{this.setState({showVision: response.data.data.filter(function (obj) {return obj.specialties[0].category === 'vision'})})};
+				// {this.setState({showVision: response.data.data.filter(function (obj) {return obj.specialties !== undefined ? obj.specialties[0].category === 'vision': null})})};
 
-				{this.setState({showDental: response.data.data.filter(function (obj) {return obj.specialties[0].category === 'dental'})})}; */}
+				// {this.setState({showDental: response.data.data.filter(function (obj) {return obj.specialties !== undefined ? obj.specialties[0].category === 'dental' : null})})}; 
 
 
 
-				console.log(this.state.showMedical);
-				console.log(this.state.showDental);
-				console.log(this.state.showVision);
+				// console.log(this.state.showMedical);
+				// console.log(this.state.showDental);
+				// console.log(this.state.showVision);
 				console.log(this.state.resultArr);
 
 			console.log(this.state.resource_url + this.state.coordinates + ',' + this.state.distance + '&skip='+ this.state.skip_limit +'&limit='+this.state.amountReturned+'&user_key=' + this.state.api_key);
